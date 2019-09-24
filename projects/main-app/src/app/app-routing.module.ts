@@ -5,7 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./lazy-module/lazy-module.module').then(m => m.LazyModuleModule)
+    loadChildren: () => import('./lazy-module/parent-wrapper.module').then(m => m.ParentWrapperModule)
   }
 ];
 

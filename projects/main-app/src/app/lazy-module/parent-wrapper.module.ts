@@ -20,6 +20,6 @@ const routes: Routes = [
     RouterModule.forChild(routes)
   ]
 })
-export class LazyModuleModule {
+export class ParentWrapperModule {
 
 }
